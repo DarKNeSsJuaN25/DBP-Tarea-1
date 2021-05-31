@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Pedido</title>
+    </head>
+    <body>
+        Bienvenido! 
+        <br/>
+        Escriba su orden, por favor
+       <form action = "/orden" method = "POST">
+        <div>
+            <label for="pedido">Ingrese pedido: </label>
+            <input type="text" name = "pedido" required> 
+        </div> 
+        <div>
+            <label for = "submit">Aceptar: </label>
+            <input type = "submit" id="submit"name= "submit" required>
+        </div>       
+       </form> 
+       Pedidos:
+       <a href="/lista">Ir a registro</a>
+    </body>
+</html>

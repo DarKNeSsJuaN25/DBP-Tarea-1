@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Encargo</title>
+    </head>
+    <body>
+        Seleccione envio
+        <br/>
+        <form action = "/envio" method = "POST">
+            <div>
+                <label for=pedido></label>
+                <input type="radio" name ="pedido" value="bicicleta" >Bicicleta
+                <input type="radio" name ="pedido" value="carro" >Carro 
+            </div> 
+            <div>
+                <label for = "submit">Aceptar: </label>
+                <input type = "submit" id="submit"name= "submit" required>
+            </div>   
+        </form>
+    </body>
+</html>

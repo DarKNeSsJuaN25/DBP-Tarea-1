@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Encargo</title>
+    </head>
+    <body>
+        Gracias por el pedido!<br/>
+        <br/>Registros:                <br/>
+        {% for da in data_registro%}
+        {{da}}                   <br/>
+        {%endfor%}
+        <br/>
+        Pedidos:                <br/>
+        <br/>
+        {% for da in data_pedido%}
+        {{da}}                 <br/>
+        {%endfor%}
+        <br/>
+        Tarjetas:                <br/>
+        <br/>          
+        {% for da in data_tarjeta%}
+         {{da}}                   <br/>
+        {%endfor%}
+        <br/>
+        Medio de envíos:                <br/>
+        <br/>            
+        {% for da in data_envio%}
+        {{da}}                   <br/>
+        {%endfor%}
+    </body>
+
+</html> 

@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Registro de Pedidos</title>
+    </head>
+    <body>
+        Lista de compras:
+        <br/>
+        <ul>
+            {%for d in data%}
+            <li>{{d.pedido}}</li>
+            {%endfor%}
+        </ul>
+
+        <a href="/pago">Proceder al pago</a>
+    </body>
+</html>
